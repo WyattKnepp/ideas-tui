@@ -1,0 +1,13 @@
+# Copy to ~/.config/ideas-tui/config (or $XDG_CONFIG_HOME/ideas-tui/config)
+# and run: chmod 600 ~/.config/ideas-tui/config
+# Environment variables of the same names override this file.
+
+# Base URL of the idea pipeline server (required)
+SERVER_URL=https://ideas.example.com
+
+# Bearer token the server accepts for the client API (required).
+# This is the CLIENT_TOKEN, not the dispatcher's AGENT_TOKEN.
+CLIENT_TOKEN=change-me
+
+# Path prefix Caddy skips the Google login for (optional, default /client)
+#API_PREFIX=/client
